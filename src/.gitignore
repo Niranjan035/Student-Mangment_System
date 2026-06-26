@@ -1,0 +1,17 @@
+# Compiled class files
+out/
+*.class
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep the lib folder tracked but ignore the JAR itself
+# (team members download their own connector)
+lib/*.jar
+!lib/.gitkeep
